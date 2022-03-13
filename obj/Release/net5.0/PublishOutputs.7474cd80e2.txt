@@ -1,0 +1,10 @@
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\SunAPI.exe
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\SunAPI.dll
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\SunAPI.deps.json
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\SunAPI.runtimeconfig.json
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\SunAPI.pdb
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\CoordinateSharp.dll
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\GeoTimeZone.dll
+C:\Users\P_MaN\source\repos\SunAPI\obj\Release\net5.0\PubTmp\Out\TimeZoneConverter.dll
