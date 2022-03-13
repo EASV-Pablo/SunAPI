@@ -1117,11 +1117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P_MaN\\source\\repos\\SunAPI\\SunAPI.csproj",
+      "projectUniqueName": "C:\\Users\\P_MaN\\Documents\\GitHub\\SunAPI\\SunAPI.csproj",
       "projectName": "SunAPI",
-      "projectPath": "C:\\Users\\P_MaN\\source\\repos\\SunAPI\\SunAPI.csproj",
+      "projectPath": "C:\\Users\\P_MaN\\Documents\\GitHub\\SunAPI\\SunAPI.csproj",
       "packagesPath": "C:\\Users\\P_MaN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P_MaN\\source\\repos\\SunAPI\\obj\\",
+      "outputPath": "C:\\Users\\P_MaN\\Documents\\GitHub\\SunAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\P_MaN\\AppData\\Roaming\\NuGet\\NuGet.Config",
