@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using SunAPI.Logic;
 using SunAPI.Models;
+using System.Threading;
 
 namespace SunAPI.Controllers
 {
