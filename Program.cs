@@ -9,7 +9,7 @@ namespace SunAPI
 {
     public class Program
     {
-        public static string name;
+        public static Server server;
         public static string fileConfig = @"initialConfig.json";
 
         public static void Main(string[] args)
@@ -23,7 +23,10 @@ namespace SunAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    //webBuilder.UseUrls("http://*:5100");
+                    if(server.Type == 0)
+                    {
+                      webBuilder.UseUrls("http://*:5100");
+                    }
                 });
 
         public static bool chargeInitialConfig(string file)
@@ -33,7 +36,7 @@ namespace SunAPI
                 using (StreamReader r = new StreamReader(file))
                 {
                     string json = r.ReadToEnd();
-                    name = JsonConvert.DeserializeObject<MachineName>(json).Name;
+                    server = JsonConvert.DeserializeObject<Server>(json);
                 }
 
                 return true;
@@ -41,7 +44,7 @@ namespace SunAPI
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                name = DateTime.Now.ToString();
+                server = new Server { Name = DateTime.Now.ToString(), Type = 1 };
                 return false;
             }
         }
