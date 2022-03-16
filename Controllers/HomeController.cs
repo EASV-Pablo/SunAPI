@@ -20,7 +20,6 @@ namespace SunAPI.Controllers
         [HttpPost("sunset")]
         public OutputDto GetSunset([FromBody] InputDto input)
         {
-            System.Console.WriteLine("HI");
             return new LogicSun().calculateSunset(input);
         }
 
