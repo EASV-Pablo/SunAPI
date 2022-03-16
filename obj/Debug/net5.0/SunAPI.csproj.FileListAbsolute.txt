@@ -51,3 +51,5 @@ C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\ref\SunAPI.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.pdb
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.genruntimeconfig.cache
+C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\initialConfig.json
+C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
