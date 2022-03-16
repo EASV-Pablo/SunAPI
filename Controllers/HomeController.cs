@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using SunAPI.Logic;
 using SunAPI.Models;
-using System.Threading;
 
 namespace SunAPI.Controllers
 {
@@ -17,13 +16,13 @@ namespace SunAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet("sunset")]
+        [HttpPost("sunset")]
         public OutputDto GetSunset([FromBody] InputDto input)
         {
             return new LogicSun().calculateSunset(input);
         }
 
-        [HttpGet("sunrise")]
+        [HttpPost("sunrise")]
         public OutputDto GetSunrise([FromBody] InputDto input)
         {
             return new LogicSun().calculateSunrise(input);
