@@ -2,9 +2,9 @@
 {
     public class InputDto
     {
-        public double Logitude { get; set; }
+        public double Longitude { get; set; }
         public double Latitude { get; set; }
-        public string date { get; set; }
+        public string Date { get; set; }
 
     }
 }
