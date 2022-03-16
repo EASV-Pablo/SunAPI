@@ -29,5 +29,6 @@ namespace SunAPI.Controllers
         {
             return new LogicSun().calculateSunrise(input);
         }
+
     }
 }
