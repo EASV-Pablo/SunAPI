@@ -17,16 +17,22 @@ namespace SunAPI.Controllers
             _logger = logger;
         }
 
-        [HttpPost("sunset")]
+        [HttpGet("sunset")]
         public OutputDto GetSunset([FromBody] InputDto input)
         {
             return new LogicSun().calculateSunset(input);
         }
 
-        [HttpPost("sunrise")]
+        [HttpGet("sunrise")]
         public OutputDto GetSunrise([FromBody] InputDto input)
         {
             return new LogicSun().calculateSunrise(input);
+        }
+
+        [HttpGet]
+        public string ConfirmAlive()
+        {
+            return "OK";
         }
 
     }
