@@ -23,7 +23,7 @@ namespace SunAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("http://*:5100");
+                    //webBuilder.UseUrls("http://*:5100");
                 });
 
         public static bool chargeInitialConfig(string file)
