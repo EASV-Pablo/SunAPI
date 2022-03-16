@@ -1,3 +1,4 @@
 {
-  "name": "Raspberry Pi 3B+"
+  "name": "Heroku Server",
+  "type":  1
 }

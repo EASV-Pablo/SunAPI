@@ -14,14 +14,14 @@ namespace SunAPI.Logic
         {
             Coordinate c = createCoordinateObj(input);
 
-            return new OutputDto { Hour = c.CelestialInfo.SunRise.ToString(), Type = "Sunrise", Machine = Program.name };
+            return new OutputDto { Hour = c.CelestialInfo.SunRise.ToString(), Type = "Sunrise", Machine = Program.server.Name };
         }
 
         public OutputDto calculateSunset(InputDto input)
         {
             Coordinate c = createCoordinateObj(input);
 
-            return new OutputDto { Hour = c.CelestialInfo.SunSet.ToString(), Type = "Sunset", Machine = Program.name };
+            return new OutputDto { Hour = c.CelestialInfo.SunSet.ToString(), Type = "Sunset", Machine = Program.server.Name };
         }
 
         public Coordinate createCoordinateObj(InputDto input) 
