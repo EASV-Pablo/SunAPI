@@ -6,6 +6,7 @@ namespace SunAPI
     public class Program
     {
         public static string name = "Raspberry Pi 3B+";
+
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();

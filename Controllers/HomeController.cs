@@ -4,11 +4,12 @@ using SunAPI.Logic;
 using SunAPI.Models;
 
 namespace SunAPI.Controllers
-{
+{    
     [ApiController]
     [Route("sun")]
     public class HomeController : Controller
     {
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
