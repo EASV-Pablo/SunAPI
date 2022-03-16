@@ -24,7 +24,7 @@ namespace SunAPI.Logic
             return new OutputDto { Hour = c.CelestialInfo.SunSet.ToString(), Type = "Sunset", Machine = Program.server.Name };
         }
 
-        public Coordinate createCoordinateObj(InputDto input) 
+        public Coordinate createCoordinateObj(InputDto input)
         {
             DateTime date = DateTime.ParseExact(input.Date, "dd/MM/yyyy", CultureInfo.InvariantCulture);
             string tz = TimeZoneLookup.GetTimeZone(input.Latitude, input.Longitude).Result;
@@ -32,10 +32,10 @@ namespace SunAPI.Logic
             Coordinate c = new Coordinate(input.Latitude, input.Longitude, date);
             c.Offset = ts.Hours;
 
-            Thread.Sleep(new Random().Next(1000,5000));
+            Thread.Sleep(new Random().Next(1000, 5000));
 
             return c;
         }
-    
+
     }
 }

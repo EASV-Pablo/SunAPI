@@ -23,9 +23,9 @@ namespace SunAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    if(server.Type == 0)
+                    if (server.Type == 0)
                     {
-                      webBuilder.UseUrls("http://*:5100");
+                        webBuilder.UseUrls("http://*:5100");
                     }
                 });
 

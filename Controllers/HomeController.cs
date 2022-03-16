@@ -4,7 +4,7 @@ using SunAPI.Logic;
 using SunAPI.Models;
 
 namespace SunAPI.Controllers
-{    
+{
     [ApiController]
     [Route("sun")]
     public class HomeController : Controller
