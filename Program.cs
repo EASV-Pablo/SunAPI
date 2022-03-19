@@ -10,7 +10,7 @@ namespace SunAPI
     public class Program
     {
         public static Server server;
-        public static string fileConfig = @"initialConfig.json";
+        public static string fileConfig = @"InitialConfig.json";
 
         public static void Main(string[] args)
         {

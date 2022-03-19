@@ -26,6 +26,7 @@ C:\Users\P_MaN\source\repos\SunAPI\obj\Debug\net5.0\SunAPI.pdb
 C:\Users\P_MaN\source\repos\SunAPI\obj\Debug\net5.0\SunAPI.genruntimeconfig.cache
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\InitialConfig.json
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\SunAPI.exe
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\SunAPI.deps.json
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\SunAPI.runtimeconfig.json
@@ -35,6 +36,7 @@ C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\ref\SunAPI.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\SunAPI.pdb
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\CoordinateSharp.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\GeoTimeZone.dll
+C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\TimeZoneConverter.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.csproj.AssemblyReference.cache
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.GeneratedMSBuildEditorConfig.editorconfig
@@ -51,5 +53,3 @@ C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\ref\SunAPI.dll
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.pdb
 C:\Users\P_MaN\Documents\GitHub\SunAPI\obj\Debug\net5.0\SunAPI.genruntimeconfig.cache
-C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\initialConfig.json
-C:\Users\P_MaN\Documents\GitHub\SunAPI\bin\Debug\net5.0\Newtonsoft.Json.dll

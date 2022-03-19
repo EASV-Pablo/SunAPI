@@ -1,3 +1,4 @@
 {
-  "name": "Heroku Server"
+  "name": "Heroku Server",
+  "type":  1
 }
